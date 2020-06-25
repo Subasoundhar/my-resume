@@ -1,0 +1,63 @@
+h1{
+    font-size: 32px;
+    color: darkred;
+    font-family: 'Barrio', cursive;
+    padding: 15px;
+}
+h3{
+    font-size: 33;
+    font-family: 'Jacques Francois Shadow', cursive; 
+    padding: 10px;
+    color: violet;
+} 
+thead{
+    font-size: 30;
+    font-family: 'Vast Shadow', cursive;
+    padding: 10px;
+    background-color: rosybrown;
+}
+tbody{
+    font-size: 25;
+    font-family: 'Pattaya', sans-serif;
+    padding-left: 25px;
+    background-color: turquoise;
+}
+.one{
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+}
+.four{
+    font-size: 18px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.five{
+    font-size: 18px;
+    font-family: 'Black And White Picture', sans-serif; 
+    background-color: turquoise;
+}
+.six{
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+}
+.seven{
+    font-size: 25px;
+    font-family: 'Pattaya', sans-serif
+} 
+body{
+    padding: 50px;
+    background-color: turquoise;
+}
+
+
+
+
+
+
+font-family: 'Barrio', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Pattaya', sans-serif;
+    font-family: 'Black And White Picture', sans-serif;   
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Playball', cursive;
+    font-family: 'Great Vibes', cursive;
