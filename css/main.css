@@ -1,63 +1,95 @@
 h1{
-    font-size: 32px;
+    font-size: 50px;
     color: darkred;
     font-family: 'Barrio', cursive;
     padding: 15px;
+    text-shadow: 25px 20px 5px orchid;
 }
 h3{
-    font-size: 33;
+    font-size: 25px;
     font-family: 'Jacques Francois Shadow', cursive; 
     padding: 10px;
     color: violet;
+    padding: 20px;
+    
 } 
-thead{
+.my-table{
+    background-color: lemonchiffon;
+    border-spacing: 50px;
+}
+.my-table thead{
     font-size: 30;
     font-family: 'Vast Shadow', cursive;
     padding: 10px;
-    background-color: rosybrown;
+    background-color: lightskyblue;
+    margin: 20px;
 }
-tbody{
+.my-table tbody{
     font-size: 25;
     font-family: 'Pattaya', sans-serif;
     padding-left: 25px;
-    background-color: turquoise;
+}
+.my-table td{
+    border: double;
+    border-color: forestgreen;
+    border-width: 7px;
+    box-shadow: 5px 5px 7px 10px silver;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.my-table tr{
+    border: dotted;
+    border-color: mediumvioletred;
+    border-width: 7px;
+    height: 50px;
+    text-align: center;
 }
 .one{
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Great Vibes', cursive;
+    color: darkgreen;
+    padding: 10px;
+    background-image: url(../images/bg5.jpg); 
+    background-size: cover;  
+    
 }
 .four{
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Fredericka the Great', cursive;
+    color: orange;
+    padding: 20px;
+    background-image: url(../images/images.jpg); 
+    background-size: cover;  
 }
 .five{
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Black And White Picture', sans-serif; 
-    background-color: turquoise;
+    color: brown;
+    margin: 20px;
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
 }
 .six{
-    font-size: 25px;
+    padding: 10px;
+    font-size: 35px;
     font-family: 'Great Vibes', cursive;
+    color: rgb(45, 0, 128);
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    
 }
-.seven{
-    font-size: 25px;
+.new-table td{
+    font-size: 30px;
     font-family: 'Pattaya', sans-serif
-} 
+}
 body{
     padding: 50px;
-    background-color: turquoise;
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-position-x: 5px;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    
 }
-
-
-
-
-
-
-font-family: 'Barrio', cursive;
-font-family: 'Jacques Francois Shadow', cursive;
-font-family: 'Vast Shadow', cursive;
-font-family: 'Pattaya', sans-serif;
-    font-family: 'Black And White Picture', sans-serif;   
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Playball', cursive;
-    font-family: 'Great Vibes', cursive;
