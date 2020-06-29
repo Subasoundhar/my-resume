@@ -1,95 +1,91 @@
-h1{
-    font-size: 50px;
-    color: darkred;
-    font-family: 'Barrio', cursive;
-    padding: 15px;
-    text-shadow: 25px 20px 5px orchid;
+body{
+    background-color: lightpink;
+    font-family: font-family: 'Cherry Swash', cursive;
 }
-h3{
-    font-size: 25px;
-    font-family: 'Jacques Francois Shadow', cursive; 
-    padding: 10px;
-    color: violet;
-    padding: 20px;
-    
-} 
-.my-table{
+.container{
+    width: 800px;  
+    margin: auto;
     background-color: lemonchiffon;
-    border-spacing: 50px;
+    padding: 0px 20px;
+    padding-bottom: 10px;
 }
-.my-table thead{
-    font-size: 30;
-    font-family: 'Vast Shadow', cursive;
-    padding: 10px;
-    background-color: lightskyblue;
-    margin: 20px;
+header h1{
+    font-size: 40px;
+    font-family: Pattaya;
+    padding: 20px 0;
 }
-.my-table tbody{
-    font-size: 25;
-    font-family: 'Pattaya', sans-serif;
-    padding-left: 25px;
+header .connect{
+    background-color: lightgray;
+    padding: 0 20px;
+    margin-bottom: 30px;
 }
-.my-table td{
-    border: double;
-    border-color: forestgreen;
-    border-width: 7px;
-    box-shadow: 5px 5px 7px 10px silver;
-    height: 50px;
-    text-align: center;
+header .connect a{
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: ; lightskyblue
+}
+header .connect a:link{
+    color: orangered;
+}
+header .connect a:hover{
+    color: maroon;
+}
+header .connect a:active{
+    color: mediumblue;
+}
+header .connect a:visited{
+    color: mediumorchid;
+}
+.information{
+    border: solid lemonchiffon;
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+}
+.information h3{
+    background-color: lightgrey;
+    padding: 20PX;
+    font-size: 22px;
+}
+.information .info-data{
+    padding: 20px 10px;
     font-size: 20px;
 }
-.my-table tr{
-    border: dotted;
-    border-color: mediumvioletred;
-    border-width: 7px;
-    height: 50px;
-    text-align: center;
+.table-1{
+
 }
-.one{
-    font-size: 35px;
-    font-family: 'Great Vibes', cursive;
-    color: darkgreen;
+.table-1 tr{
+    
+}
+.table-1 td{
+    border: solid 2px lightgreen;
     padding: 10px;
-    background-image: url(../images/bg5.jpg); 
-    background-size: cover;  
-    
 }
-.four{
-    font-size: 25px;
-    font-family: 'Fredericka the Great', cursive;
-    color: orange;
-    padding: 20px;
-    background-image: url(../images/images.jpg); 
-    background-size: cover;  
-}
-.five{
-    font-size: 30px;
-    font-family: 'Black And White Picture', sans-serif; 
-    color: brown;
-    margin: 20px;
-    background-image: url(../images/bg4.jpg);
-    background-size: cover;
-}
-.six{
+.table-1 th{
+    background-color: lightgreen;
+    border: solid 2px lightgreen;
     padding: 10px;
-    font-size: 35px;
-    font-family: 'Great Vibes', cursive;
-    color: rgb(45, 0, 128);
-    background-image: url(../images/bg1.jpg);
-    background-size: cover;
+}
+.info-list-1{
+    list-style: lower-roman;
+    list-style-position: inside;
+}
+.info-list-2{
+    list-style: square;
+    list-style-position: inside;
+} 
+.table-2{
+   
+}
+.table-2 tr{
+    padding: 50px; 
+   
+}  
+}
+.table-2 td{
+    border: solid 10px none;
     
 }
-.new-table td{
-    font-size: 30px;
-    font-family: 'Pattaya', sans-serif
-}
-body{
-    padding: 50px;
-    background-image: url(../images/bg3.jpg);
-    background-size: cover;
-    background-position: top;
-    background-position-x: 5px;
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    
+.table-3{
+    font-size: 20px;
 }
